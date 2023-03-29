@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Main {
    public static void main(String[] args) {
   Scanner o = new Scanner(System.in);
-        System.out.println("Podaj wysokosc choinki");
+        System.out.println("Podaj wysokosc kwadratu");
         int height = o.nextInt();
   
   
