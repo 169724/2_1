@@ -7,11 +7,17 @@ class Main {
         int height = o.nextInt();
   
   
-        for (int i = 1; i<=height; i++)
+        for (int i = 0; i< height; i++)
         {
-            for(int j=0;j<height-i;j++)System.out.print(" ");
-            for (int j = 0; j<(i*2)-1; j++)System.out.print("*");
-            System.out.println(" ");
+            for (int j = 0; j< height; j++){
+              if(i==0 || i== height-1 || j==0 ||j == height-1){ 
+              System.out.print("*");
+              } else {
+            System.out.print(" ");
         }
-}
+            }
+          System.out.println(" ");
+        }
+      
+   }
 }
